@@ -11,7 +11,7 @@ jobs:
     
     steps:
       name: Running Local Downloads.bat
-  run: cmd /c Downloads.bat
+  run: cmd /c s/Downloads.bat
 
 
       - name: Log In To AnyDesk
